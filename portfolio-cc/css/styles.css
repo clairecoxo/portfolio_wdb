@@ -1,0 +1,102 @@
+/* 
+Project Name: WDB_Week 3
+Client: WDB
+Author: Claire Cohen
+*/
+
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: .5rem;
+     line-height: 1.4;
+     background-color: #0b0e2f;
+}
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+#container {
+    width:100%;
+}
+
+h1{
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    margin-top: 20%;
+    padding: 5px;
+    font-family: 'Courier New';
+    font-weight: 700;
+    font-size: .6rem;
+    z-index: 1;
+}
+
+/*HEADER*/
+header {
+}
+
+nav{
+    padding: 5px;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    font-family: 'Courier New';
+    font-weight: 700;
+    font-size: .6rem;
+}
+nav li{
+    display: block;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+/*DROPDOWN MENU*/
+li{
+    font-family: 'Courier New';
+    font-size: .6rem;
+    font-weight: 700;
+    text-align: left;
+}
+li:hover{
+    background-color: #C3D7E4;
+}
+.content{
+      font-family: 'Courier New';
+      font-size: .6rem;
+      padding: 8px 6px;
+      font-weight: 400;
+}
+.listelement{
+    cursor: pointer;
+}
+
+/*LINKS*/
+a{
+    color:#000000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: line-through;
+}
+
+/*FOOTER*/
+footer {
+    font-size:.5rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
